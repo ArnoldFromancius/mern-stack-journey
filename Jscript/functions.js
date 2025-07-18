@@ -16,6 +16,11 @@ let expr = function(){
 	console.log("This is a function expression");
 }
 
+//imediately invoked funtion syntax
+(function(){
+	console.log("This is an imediately invoked function");
+})();
+
 reg_func();
 arrow();
 arrow_oneliner();
