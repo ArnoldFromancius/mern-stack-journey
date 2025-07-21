@@ -14,6 +14,7 @@ function OuterFunction(){
 		console.log(globalVar);
 	}
 
+	InnerFunction();
 	//console.log(outterVar);
 }
 
