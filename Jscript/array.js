@@ -13,7 +13,7 @@ let slice_arr = shallow_arr.slice();
 
 //	-Deep copy-
 //A deep copy does'nt just copy references, it copies the objects themselves 
-//and the easiest way to do it is using the structuredCopy() function
+//and the easiest way to do it is using the structuredClone() function
 //assume a nested array
 let nest_arr = [
 	[1,2,3],
@@ -21,9 +21,9 @@ let nest_arr = [
 }
 //if any of the shallow copy functions was used, a new array would be returned
 //with references to this arrays child items
-//	-StructuredCopy-
-//
-let struct_arr = structuredCopy(shallow_arr); //this creates new objects not ref
+//	-StructuredClone-
+
+let struct_arr = structuredClone(shallow_arr); //creates new objects not refs
 nest_arr[0][0] = 99; //only affects this array
 //console.log(struct_arr); //unaffected as it is a different entity
 
