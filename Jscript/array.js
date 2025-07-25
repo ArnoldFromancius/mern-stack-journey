@@ -1,7 +1,7 @@
 //Shallow vs Deep copying of arrays 
 
 //	-Shallow copy-
-//There are two main ways to do a shallow copy of an array: using the splice
+//There are two main ways to do a shallow copy of an array: using the slice
 //method and using the spread(...) operator
 //Spread operator:
 let shallow_arr = [1,2,3,4];
@@ -9,7 +9,7 @@ let shallow_arr = [1,2,3,4];
 let spread_arr = [...shallow_arr]; 
 
 //Slice method
-let slice_arr = shallow_arr.splice();
+let slice_arr = shallow_arr.slice();
 
 //	-Multi-Dimensional Arrays
 //Arrays function just like in any other language(from a C perspective) the
