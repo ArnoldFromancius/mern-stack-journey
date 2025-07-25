@@ -11,6 +11,23 @@ let spread_arr = [...shallow_arr];
 //Slice method
 let slice_arr = shallow_arr.slice();
 
+//	-Deep copy-
+//A deep copy does'nt just copy references, it copies the objects themselves 
+//and the easiest way to do it is using the structuredCopy() function
+//assume a nested array
+let nest_arr = [
+	[1,2,3],
+	[3,2,1],
+}
+//if any of the shallow copy functions was used, a new array would be returned
+//with references to this arrays child items
+//	-StructuredCopy-
+//
+let struct_arr = structuredCopy(shallow_arr); //this creates new objects not ref
+nest_arr[0][0] = 99; //only affects this array
+//console.log(struct_arr); //unaffected as it is a different entity
+
+
 //	-Multi-Dimensional Arrays
 //Arrays function just like in any other language(from a C perspective) the
 //only difference is with multidimensional arrays where JS treats them as arrays
