@@ -1,3 +1,17 @@
+//Shallow vs Deep copying of arrays 
+
+//	-Shallow copy-
+//There are two main ways to do a shallow copy of an array: using the splice
+//method and using the spread(...) operator
+//Spread operator:
+let shallow_arr = [1,2,3,4];
+//using the spread operator (...)
+let spread_arr = [...shallow_arr]; 
+
+//Slice method
+let slice_arr = shallow_arr.splice();
+
+//	-Multi-Dimensional Arrays
 //Arrays function just like in any other language(from a C perspective) the
 //only difference is with multidimensional arrays where JS treats them as arrays
 //of arrays and as objects, unlike in C where they are treated as low level 
