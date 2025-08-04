@@ -6,7 +6,7 @@ function OuterFunction(){
 	let outerVar = 'This is a variable in the outer function';
 	
 	function InnerFunction(){
-		let innerVar = 'This is a viriable in the inner function';
+		let innerVar = 'This is a variable in the inner function';
 		//showing that i can access all the parent variables from 
 		//an inner function but not the other way around
 		console.log(innerVar);
