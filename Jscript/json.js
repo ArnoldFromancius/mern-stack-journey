@@ -22,3 +22,6 @@ console.log(jsonObject);
 //To convert a JSON into an actual js object we:
 let newjsObject = JSON.parse(jsonObject);
 console.log(newjsObject);
+
+//with the above a stringified JSON can be stored in a file and 
+//be read by a different program... Data persistency if you will.
