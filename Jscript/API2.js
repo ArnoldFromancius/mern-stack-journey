@@ -1,0 +1,3 @@
+//We'll utilize the education api at: https://restful-api.dev/
+//here we can mimic operations performed on an API for free with
+//no authentication needed... 
