@@ -16,5 +16,6 @@ async function catFact(){
 	let json_fact = await raw_fact.json();
 	console.log(json_fact);
 }
-
 catFact();
+//as you can see, this solution is much more elegant and clearly illustrates
+//the use of async_await.
