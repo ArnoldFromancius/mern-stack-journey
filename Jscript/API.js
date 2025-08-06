@@ -11,3 +11,10 @@
 //.catch(() => console.log('Error!'));	//error handling
 
 //THIS SOLUTION UTILIZES ASYNC-AWAIT
+async function catFact(){
+	let raw_fact = await fetch('https://catfact.ninja/fact');
+	let json_fact = await raw_fact.json();
+	console.log(json_fact);
+}
+
+catFact();
