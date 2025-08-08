@@ -4,7 +4,7 @@
 
 let sampleText = "This is a test module";
 
-let example_module = function () => console.log(sampleText);
+let example_module = function () { console.log(sampleText) }
 
 //now to make the method example_module accessible to other modules
 module.exports.example_module = example_module;
