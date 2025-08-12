@@ -27,3 +27,8 @@ fs.readFile('./files/samplefile.txt', (err, data) => {
 	console.log(data.toString());
 });
 
+//deleting files
+//fs.rm();
+
+//deleting folders
+//fs.rmdir();
