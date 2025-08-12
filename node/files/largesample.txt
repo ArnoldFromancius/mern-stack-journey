@@ -1,0 +1,129 @@
+Kitanga Nday
+Fullstack Engineer
+Contact Details:
+https://www.linkedin.com/in/kitanga-nday-86795ab6
+kitanganday@gmail.com
+https://kitanga.dev
+Summary:
+I am an ambitious and versatile team player with a passion or building user-focused
+products. A UX researcher at heart, I bridge the gap between product, engineering and
+business, creating experiences that are as intriguing as they are usable. Apart rom work, I
+blog about web technology related topics, indulge in the creation o low quality youtube
+videos, and compose music.
+Experience:
+Freelance
+Remote
+Jan 2024 - Present
+I have spent the last couple o months working on a range o products, all o them ullstack,
+ranging rom chat bots using generative AI (AI) to AI powered products (under NDA)
+•Tech: ReactJS, SolidJS, Redux, Mobx, Tailwind CSS, NodeJS, NestJS, ChatGPT Open
+API, Gemini API, Google Drive API, JavaScript/Typescript, Threejs, Bunjs, ElysiaJS,
+Web sockets, MongoDB, Hetzner VPS
+•The rst reelance project I worked on this year was a ChatGPT powered chatbot split
+into 3 main projects. The chat bot widget which uses ReactJS, Redux, and Tailwind
+CSS. The client dashboard was built using ReactJS, Mobx, and Tailwind CSS. And
+nally, a backend running in Nodejs using NestJS as the backend ramework, and
+MongoDB or the database. I can’t mention the name o the product, because the
+client wanted this to be condential. I just did what needed to be done to push the
+platorm orward, adding new eatures to the project like multiple ways to train the
+ChatGPT backend using dierent inputs (google drive, pd les, etc.), multiple UX
+improvements on the dashboard, and additional xes and changes to the widget.
+•A Gemini powered product or a large South Arican company in the ood industry
+(I’m under NDA, that’s honestly all I can say). We built a prototype using raw HTML,
+CSS, and JS or the rontend, and a BunJS backend using ElysiaJS or API setup and
+handling.
+•Sunbaked (https://sunbaked.kitanga.dev), a 3D multiplayer naval game. My current
+project, ~18,000 visits/plays in the 2 week test period we had in October, currently
+play testing the game on a web portal. The rontend is hosted on the platorm I am
+using to playtest and on rebase hosting. The backend is setup on Hetzners’ VPS
+cloud service and the server logic runs within a BunJS environment using ElysiaJS’websocket plugin (built ontop o uWebsocket) or communication between the client
+and the server. The rontend uses SolidJS, custom CSS, and ThreeJS or the renderer.
+The physics code is my own.
+Fullstack Developer at Obsidi
+Remote (Ontario Canada)
+Aug 2022 – Jan 2024
+UI implementing/reviewing/editing, mentoring, and UX research
+•Tech: ReactJS, Material UI, Styled Components, QuillJS, Knexjs, NodeJS, PostgreSQL,
+Figma, Mixpanel
+•Implementing UI
+•App optimisations (dropped app size by ~50%)
+•Team Player Award Recipient
+•Mentoring frontend leaning and backend leaning developers
+•Seating between the UI and development teams
+•Advising, where necessary, KPIs and tracking metrics that help us determine what
+success looks like.
+•Technical and UX research
+•SEO implementation
+•Recruitment
+Fullstack Game Developer at Wiener Games
+Remote (Bulgaria)
+Sept 2021 – July 2022
+Started as a rontend developer and moved into Fullstack development later on
+•Tech: NodeJS, MoleculerJS, PrismaJS, PostgreSQL, Cocos3D, Firebase, Pixijs
+•Frontend Slot Games
+•Fullstack Timeshufe.io
+◦ Implemented character skills/move-sets and authentication
+Frontend Game Developer at Wonderlabz
+Cape Town, South Africa
+Jan 2020 – Aug 2021
+Worked as a rontend developer building slot games
+•Tech: Pixijs
+•Frontend Slot Games
+Frontend Web Developer at Inspired Ideas
+Arusha, TanzaniaAug 2016 – Mar 2018
+Here we built everything, a mobile application, websites, and most importantly ReactJS web
+applications.
+•Tech: ReactJS, MaterilizeCSS, Bootstrap, JQuery, Firebase
+•Mobile application development
+•Web Development
+IT Intern at African Court of Human and
+Peoples’ Rights
+Arusha, Tanzania
+Nov 2015 – Jan 2016
+Fixed printers, helped setup the new Ethernet network cables, and introduced marketing
+team to Buer App. Happy to see they still use it till this day.
+Education:
+Friends of Design – Web Design and Interactive Media (04/2018 – 12/2018)
+Iowa Lakes Community College, IA – Web Development and Design (09/2014 – 05/2015)
+Oneida Baptist Institute, KY – Advanced High School Diploma (Class of 2014, I had to redo
+high school in the US since I never did US Government or US History)
+Saint Constantine’s International School – O Level (Class of 2013)
+Skills:
+Frontend – ReactJS, VueJS, SvelteJS, SolidJS, Firebase, Typescript 4.x, Javascript ES2022+,
+HTML, CSS 3, Material UI, Styled Components
+Backend – NodeJS, BunJS, ElysiaJS PrismaJS, Firebase, PostgreSQL, Knex
+Source Control – Git
+Other – Reaper (DAW), JSON, Blender, Blogger?, Mixpanel, Google Analytics, Postman
+Unused Skills– Java, C#, Sketch App, PHP
+Game Releases:
+Around the World in 80 Reels
+https://www.slotstemple.com/ree-slots/around-the-world-in-80-wilds
+Silverball
+https://www.rainbowrichescasino.com/uk/online-slots/silverball
+Apps Worked on:
+Obsidi by BPTNhttps://app.obsidi.com
+Dr. Elsa
+https://drelsa.xyz/
+NED App
+https://nedapp.co.za/ (mobile only, variant no.2 due to typescript rewrite, discontinued)
+Demos:
+A Voice Controlled Wikipedia Search Eengine Demo (Chrome only, API is extremely
+experimental)
+https://codepen.io/kitanga/pen/WVoVpp
+Top Down Shmup with controller support (Build using Pixi.js, Typescript, and Webpack)
+Controls keyboard: Arrow or AWSD keys or movement, Space/N to shoot
+Controls gamepad: Let-Stick/Dpad or movement, RT/R2 to shoot
+Demo: https://dynamo-shmup.herokuapp.com/
+Original repo: https://github.com/Kitanga/project-dynamo
+First Person Shooter experiment with controller support (ThreeJS, Javascript/Typescript)
+Demo: https://kitanga-nday-productions.itch.io/arican-end-o-the-blobs-prealpha
+HTN Planner (PIXI.js, Javascript)
+A bunch o chickens just running around.
+Demo: https://codepen.io/kitanga/pen/XWRmEQQ?editors=0010
+WEBPACK LOADER THAT TRANSPILES A SPECIAL LANGUAGE I CREATED TO NORMAL
+JAVASCRIPT
+https://github.com/Kitanga/phaser-lang
+WORKING WITH BINARY DATA (CREATING A FILE FROM SCRATCH)
+https://github.com/Kitanga/grammar
+AN ONLINE MUSIC PLAYER
+https://kitanga.github.io/kitanga_nday-HTML_Responsive-01/index.html
