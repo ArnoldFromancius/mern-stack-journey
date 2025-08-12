@@ -7,7 +7,7 @@ fs.readFile('./samplefile.txt', (err, data) => {
 	if(err){
 		console.log(err);
 	}
-	console.log(data);
+	console.log(data.toString());
 });
 
 //writing files
