@@ -2,6 +2,11 @@
 
 const fs = require('fs');
 
+//writing to files
+fs.writeFile('./samplefile.txt', 'Written to file from js...', () => {
+	console.log("file written");
+});
+
 //reading files
 fs.readFile('./samplefile.txt', (err, data) => {
 	if(err){
@@ -10,4 +15,3 @@ fs.readFile('./samplefile.txt', (err, data) => {
 	console.log(data.toString());
 });
 
-//writing files
