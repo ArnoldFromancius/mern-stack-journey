@@ -28,7 +28,7 @@ fs.readFile('./files/samplefile.txt', (err, data) => {
 });
 
 //deleting files
-//fs.rm();
+//fs.unlink();
 
 //deleting folders
 //fs.rmdir();
