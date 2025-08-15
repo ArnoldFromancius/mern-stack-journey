@@ -3,7 +3,8 @@
 let http = require('http');
 
 let server = http.createServer((req, res) => {
-	console.log('request received!');	
+	console.log('request received!');
+	console.log(req);
 });
 
 server.listen(1000, 'localhost', () => {
