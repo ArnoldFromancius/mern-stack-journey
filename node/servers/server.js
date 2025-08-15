@@ -10,7 +10,7 @@ let server = http.createServer((req, res) => {
 		case '/':
 			path += 'index.html';
 			break;
-		case 'info':
+		case '/info':
 			path += 'info.html';
 			break;
 		default: path += 'missing.html';
