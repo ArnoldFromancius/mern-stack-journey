@@ -9,7 +9,7 @@ let server = http.createServer((req, res) => {
 		if(err){
 			console.log(err);
 		}
-		res.setHeader('Content-Type','text/plain');
+		res.setHeader('Content-Type','text/html');
 		res.write(data);
 		res.end();
 	});
