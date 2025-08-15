@@ -6,7 +6,6 @@ let server = http.createServer((req, res) => {
 	console.log('request received!');
 	res.setHeader('Content-Type','text/plain');
 	res.end('Response from server...');
-	console.log(res);
 });
 
 server.listen(1000, 'localhost', () => {
