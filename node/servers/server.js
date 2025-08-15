@@ -1,4 +1,4 @@
-//We create a basic server
+//We create a basic server using barebones node
 
 let http = require('http');
 let fs = require('fs');
