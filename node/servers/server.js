@@ -9,11 +9,14 @@ let server = http.createServer((req, res) => {
 	switch(req.url){
 		case '/':
 			path += 'index.html';
+			res.StatusCode = 200;
 			break;
 		case '/info':
 			path += 'info.html';
+			res.StatusCode = 200;
 			break;
 		default: path += 'missing.html';
+			res.StatusCode = 404;
 			break;
 	}
 
