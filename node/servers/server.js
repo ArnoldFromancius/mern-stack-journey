@@ -5,7 +5,7 @@ let fs = require('fs');
 
 let server = http.createServer((req, res) => {
 	console.log('request received!');
-	let path = './views/';
+	let path = './express/views/';
 	switch(req.url){
 		case '/':
 			path += 'index.html';
