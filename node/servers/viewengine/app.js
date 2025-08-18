@@ -7,15 +7,15 @@ app.set('view engine', 'ejs');
 app.set('views', './views');
 
 app.get('/', (req, res) => {
-	res.sendFile('./views/index.html', { root: __dirname });
+	res.render('index');
 });
 
 app.get('/info', (req,res) => {
-	res.sendFile('./views/info.html', {root: __dirname });
+	res.render('info');
 });
 
 app.use((req, res) => {
-	res.sendFile('./views/missing.html', {root: __dirname });
+	res.render('404');
 });
 
 app.listen(2000);
