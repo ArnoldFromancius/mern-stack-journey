@@ -3,6 +3,8 @@
 const express = require('express');
 
 let app = express();
+app.set('view engine', 'ejs');
+app.set('views', './views');
 
 app.get('/', (req, res) => {
 	res.sendFile('./views/index.html', { root: __dirname });
