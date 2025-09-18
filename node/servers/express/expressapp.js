@@ -4,13 +4,14 @@ const express = require('express');
 
 let app = express();
 
-//dA
+//database
 const mongoose = require("mongoose");
-
+//connect to remote db
 mongoose.connect("mongodb+srv://arnoldfromancius_db_user:%23siliconwhisperer2799@mighkacarepluscluster.a5owpj6.mongodb.net/?retryWrites=true&w=majority&appName=MighkaCareplusCluster")
   .then(() => console.log("MongoDB connected"))
   .catch(err => console.error(err));
 
+//create a user schema
 const userSchema = new Schema({
 	name: String,
 	address: String,
@@ -18,6 +19,7 @@ const userSchema = new Schema({
 	email: String
 })
 
+//create a user model
 const User = model('User', userSchema);
 
 
