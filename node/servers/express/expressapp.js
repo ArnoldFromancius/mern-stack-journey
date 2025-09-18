@@ -30,6 +30,8 @@ const userobj = new User({
 	email: "mail@mail.com
 });
 
+//save user to db
+await userobj.save();
 
 //ROUTING
 app.get('/', (req, res) => {
