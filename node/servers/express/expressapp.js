@@ -33,6 +33,10 @@ const userobj = new User({
 //save user to db
 await userobj.save();
 
+//log the users in db
+const firstUser = await User.findOne({});
+console.log(firstUser);
+
 //ROUTING
 app.get('/', (req, res) => {
 	res.sendFile('./views/index.html', { root: __dirname });
