@@ -22,6 +22,14 @@ const userSchema = new Schema({
 //create a user model
 const User = model('User', userSchema);
 
+//create a user object
+const userobj = new User({
+	name: "Arnold",
+	address: "Ndeke Village",
+	phone: "0977777777",
+	email: "mail@mail.com
+});
+
 
 //ROUTING
 app.get('/', (req, res) => {
