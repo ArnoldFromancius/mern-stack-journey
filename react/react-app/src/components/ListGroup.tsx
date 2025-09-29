@@ -6,7 +6,7 @@ function ListGroup() {
         <ul className="list-group">
             
             {items.map((item) => (
-                <li className="list-group-item">{item}</li>
+                <li className="list-group-item" onClick={() => console.log(item)} key={item}>{item}</li>
             ))};
             
         </ul>
