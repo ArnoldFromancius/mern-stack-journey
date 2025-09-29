@@ -7,6 +7,6 @@ const readStream = fs.createReadStream('./files/largesample.txt');
 
 readStream.on('data', (chunck) => {
 	console.log('--- CHUNCK ---');
-	console.log(chunck);
+	console.log(chunck.toString());
 });
 
