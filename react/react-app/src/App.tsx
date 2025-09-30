@@ -4,10 +4,12 @@ import ListGroup from './components/ListGroup';
 
 function App() {
 
+  const items = ['fridge', 'washing machine', 'stove', 'geyser', 'Genset', 'sink', 'bathtub'];
+      
   return (
     <>
       <Message />;
-      <ListGroup />;
+      <ListGroup items={items} heading={'Appliances'} />;
     </>
   );
 

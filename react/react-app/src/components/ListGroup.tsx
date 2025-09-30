@@ -1,17 +1,24 @@
 import { useState } from "react";
 
-function ListGroup() {
-    let items = ['fridge', 'washing machine', 'stove', 'geyser', 'Genset', 'sink', 'bathtub'];
+interface ListGroupProps {
+    items: string[];
+    heading: string;
+}
+
+function ListGroup({ items, heading }: ListGroupProps) {
     const [selectedIndex, setSelectedIndex] = useState(-1);
-    
+
     return (
-        <ul className="list-group">
-            
-            {items.map((item, index) => (
-                <li className={selectedIndex === index ? "list-group-item active": "list-group-item"} onClick={() => setSelectedIndex(index)} key={item}>{item}</li>
-            ))};
-            
-        </ul>
+        <>
+            <h2>{heading}</h2>
+            <ul className="list-group">
+
+                {items.map((item, index) => (
+                    <li className={selectedIndex === index ? "list-group-item active" : "list-group-item"} onClick={() => setSelectedIndex(index)} key={item}>{item}</li>
+                ))};
+
+            </ul>
+        </>
     );
 }
 
